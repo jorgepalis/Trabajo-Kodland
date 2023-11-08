@@ -1,0 +1,680 @@
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFBF69;
+    height: 97.5vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.encabezado {
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 20 px;
+    justify-content: space-between;
+}
+
+.encabezado_inicio {
+    white-space: nowrap;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    width: 100 px;
+    font-size: 1.5rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.encabezado_menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.encabezado_menu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.encabezado_menu ul li {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.encabezado_menu ul li a {
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    width: 100 px;
+    font-size: 1.5rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.menu {
+    display: none;
+}
+
+/* inicio de baner*/
+
+.baner {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.baner_izq {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.baner_izq h1 {
+    display: flex;
+    color: #ffffff;
+    font-size: 11rem;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+    white-space: nowrap;
+    margin-bottom: 10px;
+
+}
+
+.baner_izq_p1 {
+    font-size: 1.5rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #ffffff;
+}
+
+.baner_izq_boton1 {
+    width: 30%;
+    font-size: 1.5rem;
+    background-color: #CBF3F0;
+    border: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.baner_img1 {
+    display: flex;
+    max-height: 100%;
+
+}
+
+.baner_img1 img {
+    display: flex;
+    max-width: 500px;
+
+
+}
+
+
+/* fin de baner*/
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*inicio intro*/
+
+.intro {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.intro_h2 {
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+    white-space: nowrap;
+    margin-bottom: 4px;
+}
+
+.intro_p1 {
+    font-size: 1.5rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*fin intro*/
+
+/* tipos*/
+
+.tipos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #CBF3F0;
+    width: 100%;
+    margin-top: 50 px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tipos_h2 {
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+    white-space: nowrap;
+    margin-bottom: 4px;
+}
+
+.tipos_contenedor {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.tipos_contenedor_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tipos_contenedor_main_img img {
+    max-width: 160px;
+}
+
+.tipos_contenedor_main_h3 {
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+    white-space: nowrap;
+}
+
+.tipos_contenedor_main_boton {
+    display: flex;
+    font-size: 1.5rem;
+    background-color: #FFBF69;
+    border: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* fin de tipos*/
+
+/* donde comprar*/
+
+.comprar {
+    display: flex;
+    flex-direction: column;
+    background-image: url("img/bg-grid.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 180px;
+
+}
+
+.comprar_contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+}
+
+.comprar_contenedor_izquierda {
+    padding-right: 60px;
+}
+
+.comprar_contenedor_izquierda h2 {
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+    white-space: nowrap;
+    margin-bottom: 4px;
+}
+
+.comprar_contenedor_derecha img {
+    max-width: 450px;
+}
+
+/*fin de donde comprar*/
+
+/*footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+}
+
+.footer_contain {
+    display: flex;
+    padding: 30px;
+    flex: 1;
+    align-items: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/*fin footer*/
+
+
+/*media query 1150*/
+
+@media (max-width: 1150px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFBF69;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .baner {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .baner_izq {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .baner_izq h1 {
+        display: flex;
+        color: #ffffff;
+        font-size: 8rem;
+        font-weight: bold;
+        font-family: 'Bree Serif', serif;
+        white-space: nowrap;
+        padding: 0px;
+        margin: 0px;
+
+
+    }
+
+    .baner_izq_p1 {
+        font-size: 1.4rem;
+        font-family: 'PT Sans Narrow', sans-serif;
+        color: #ffffff;
+    }
+
+    .baner_izq_boton1 {
+        font-size: 1.4rem;
+        background-color: #CBF3F0;
+        border: none;
+        font-family: 'PT Sans Narrow', sans-serif;
+        padding: 8px;
+        cursor: pointer;
+        margin-bottom: 5px;
+    }
+
+    .baner_img1 {
+        display: flex;
+        max-height: 100%;
+
+    }
+
+    .baner_img1 img {
+        display: flex;
+        max-width: 300px;
+
+
+    }
+
+    /*------------------*/
+    .comprar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 90px;
+        padding-bottom: 100px;
+        background-image: none;
+    }
+
+    .comprar_contenedor {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+
+    .comprar_contenedor_izquierda {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comprar_contenedor_izquierda h2 {
+        display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Bree Serif', serif;
+        white-space: nowrap;
+        margin-bottom: 4px;
+    }
+
+    .comprar_contenedor_derecha img {
+        max-width: 450px;
+        border-radius: 5px;
+    }
+
+    /*------------*/
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #333333;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .footer_contain {
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding: 1px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    footer a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+}
+
+/*fin media query 600*/
+
+@media (max-width: 600px) {
+    body {
+        background-color: #ffffff;
+        font-family: sans-serif;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFBF69;
+        margin: 0;
+        padding: 0;
+    }
+
+    .encabezado {
+        display: flex;
+        width: 90%;
+        margin: 10px auto;
+        margin-top: 20 px;
+        justify-content: space-between;
+    }
+
+    .encabezado_inicio {
+        white-space: nowrap;
+        margin: auto;
+        text-decoration: none;
+        color: black;
+        width: 100 px;
+        font-size: 1.5rem;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+
+    .encabezado_menu {
+        display: none;
+
+    }
+
+    /*------------------------*/
+    .baner_izq h1 {
+        display: flex;
+        color: #ffffff;
+        font-size: 6rem;
+        font-weight: bold;
+        font-family: 'Bree Serif', serif;
+        white-space: nowrap;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+    }
+
+    .baner_izq_p1 {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-bottom: 15px;
+    }
+
+    /*-----------*/
+    .intro {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        align-items: center;
+        margin: 10px;
+        padding-top: 0px;
+        padding-bottom: 0%;
+
+    }
+
+    .intro_h2 {
+        display: flex;
+        font-size: 1.7rem;
+        font-weight: bold;
+        font-family: 'Bree Serif', serif;
+        white-space: nowrap;
+        margin-bottom: 4px;
+    }
+
+    .intro_p1 {
+        font-size: 1.5rem;
+        font-family: 'PT Sans Narrow', sans-serif;
+        text-align: justify;
+    }
+
+    /*---------------------*/
+    .tipos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #CBF3F0;
+        width: 100%;
+        margin: 2px;
+        padding: 0%;
+        padding-bottom: 20px;
+    }
+
+    .tipos_h2 {
+        display: flex;
+        font-size: 1.6rem;
+        font-weight: bold;
+        font-family: 'Bree Serif', serif;
+        white-space: nowrap;
+        margin-bottom: 4px;
+    }
+
+    .tipos_contenedor {
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 40px;
+    }
+
+    .tipos_contenedor_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tipos_contenedor_main_img img {
+        max-width: 90px;
+    }
+
+    .tipos_contenedor_main_h3 {
+        display: flex;
+        font-size: 0.6rem;
+        font-weight: bold;
+        font-family: 'Bree Serif', serif;
+        white-space: nowrap;
+    }
+
+    .tipos_contenedor_main_boton {
+        display: flex;
+        font-size: 1.3rem;
+        background-color: #FFBF69;
+        border: none;
+        font-family: 'PT Sans Narrow', sans-serif;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    /*---------------*/
+    .comprar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+
+    .comprar_contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .comprar_contenedor_izquierda {
+        padding: 5px;
+        margin: 5px;
+        align-items: center;
+    }
+
+    .comprar_contenedor_izquierda h2 {
+        display: flex;
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Bree Serif', serif;
+        white-space: nowrap;
+        margin-bottom: 4px;
+    }
+
+    .comprar_contenedor_izquierda p {
+        font-size: 1.5rem;
+        font-family: 'PT Sans Narrow', sans-serif;
+        text-align: justify;
+    }
+
+    .comprar_contenedor_derecha img {
+        max-width: 100%;
+    }
+
+    /*---------------*/
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #333333;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    /*--------------------------*/
+    .menu {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .menu_btn {
+        position: absolute;
+        cursor: pointer;
+        top: 15px;
+        right: 30px;
+        z-index: 2;
+        font-size: 1.5rem;
+
+    }
+
+    .menu_ul {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        height: 90%;
+        padding: 30px;
+        opacity: 0.9;
+        transform: translate(-400px);
+        /*moverlo por afuera del margen*/
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .menu_ul_li {
+        margin-bottom: 20px;
+        list-style: none;
+
+    }
+
+    .menu_ul_li a {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #FFBF69;
+    }
+
+    .menu_ul_li a:hover {
+        text-decoration: underline;
+    }
+
+    .menu_ul.show {
+        transform: translate(-10px);
+
+    }
+
+}
